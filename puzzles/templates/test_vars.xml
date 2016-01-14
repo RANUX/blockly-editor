@@ -1,0 +1,151 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+    <block type="variables_set" id="460" inline="true" x="-1491" y="-572">
+        <field name="VAR">a</field>
+        <next>
+            <block type="variables_set" id="461" inline="true">
+                <field name="VAR">a_result</field>
+                <next>
+                    <block type="variables_set" id="462" inline="true">
+                        <field name="VAR">b</field>
+                        <next>
+                            <block type="variables_set" id="463" inline="true">
+                                <field name="VAR">b_result</field>
+                                <next>
+                                    <block type="procedures_callnoreturn" id="464">
+                                        <mutation name="test"></mutation>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </next>
+    </block>
+    <block type="procedures_defnoreturn" id="465" x="-1493" y="-378">
+        <mutation></mutation>
+        <field name="NAME">test</field>
+        <statement name="STACK">
+            <block type="variables_set" id="466" inline="true">
+                <field name="VAR">passed</field>
+                <value name="VALUE">
+                    <block type="logic_boolean" id="467">
+                        <field name="BOOL">FALSE</field>
+                    </block>
+                </value>
+                <next>
+                    <block type="variables_set" id="468" inline="true">
+                        <field name="VAR">passed</field>
+                        <value name="VALUE">
+                            <block type="procedures_callreturn" id="469" inline="false">
+                                <mutation name="is_equal">
+                                    <arg name="current"></arg>
+                                    <arg name="expected"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                    <block type="variables_get" id="470">
+                                        <field name="VAR">a</field>
+                                    </block>
+                                </value>
+                                <value name="ARG1">
+                                    <block type="variables_get" id="471">
+                                        <field name="VAR">a_result</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="variables_set" id="472" inline="true">
+                                <field name="VAR">passed</field>
+                                <value name="VALUE">
+                                    <block type="procedures_callreturn" id="473" inline="false">
+                                        <mutation name="is_equal">
+                                            <arg name="current"></arg>
+                                            <arg name="expected"></arg>
+                                        </mutation>
+                                        <value name="ARG0">
+                                            <block type="variables_get" id="474">
+                                                <field name="VAR">b</field>
+                                            </block>
+                                        </value>
+                                        <value name="ARG1">
+                                            <block type="variables_get" id="475">
+                                                <field name="VAR">b_result</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="controls_if" id="476" inline="false">
+                                        <mutation else="1"></mutation>
+                                        <value name="IF0">
+                                            <block type="variables_get" id="477">
+                                                <field name="VAR">passed</field>
+                                            </block>
+                                        </value>
+                                        <statement name="DO0">
+                                            <block type="text_print" id="478" inline="false">
+                                                <value name="TEXT">
+                                                    <block type="text" id="479">
+                                                        <field name="TEXT">Test passed (proiden!) :-)</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </statement>
+                                        <statement name="ELSE">
+                                            <block type="text_print" id="480" inline="false">
+                                                <value name="TEXT">
+                                                    <block type="text" id="481">
+                                                        <field name="TEXT">Test faild (NE proiden) (;-(</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </statement>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </statement>
+    </block>
+    <block type="procedures_defreturn" id="482" inline="false" x="-1484" y="6">
+        <mutation>
+            <arg name="current"></arg>
+            <arg name="expected"></arg>
+        </mutation>
+        <field name="NAME">is_equal</field>
+        <comment pinned="false" h="80" w="160">Проверяет равенство двух переменных</comment>
+        <statement name="STACK">
+            <block type="procedures_ifreturn" id="483" inline="true">
+                <mutation value="1"></mutation>
+                <value name="CONDITION">
+                    <block type="logic_compare" id="484" inline="true">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                            <block type="variables_get" id="485">
+                                <field name="VAR">current</field>
+                            </block>
+                        </value>
+                        <value name="B">
+                            <block type="variables_get" id="486">
+                                <field name="VAR">expected</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+                <value name="VALUE">
+                    <block type="logic_boolean" id="487">
+                        <field name="BOOL">TRUE</field>
+                    </block>
+                </value>
+            </block>
+        </statement>
+        <value name="RETURN">
+            <block type="logic_boolean" id="488">
+                <field name="BOOL">FALSE</field>
+            </block>
+        </value>
+    </block>
+</xml>
