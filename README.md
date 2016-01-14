@@ -1,6 +1,13 @@
 
+## О Проекте
+Редактор поддерживает Русский язык и несколько файлов с упражнениями для демонстрации подгрузки файлов с сервера.
+Для подгрузки файлов с упражнениями разместите папку с проектом в открытой папке веб сервера.
+Упражнения распологаются в папке puzzles. 
+Если вы придумаете новые упражнения, то буду рад их добавить к себе в репозиторий.
+
 ## About this Project
-Modified version of blockly editor with file load\save feature and C# code generation.
+Modified version of Blockly editor with file load\save feature and C# code generation.
+For file load from server you can share Blockly on Web Server.
 
 
 ## Run
@@ -10,8 +17,6 @@ Open in browser code_editor.html
 Default support is English and Russion, but you can turn on other languages in Code.js file.
 
 
-## О Проекте
-Редактор поддерживает Русский язык и несколько файлов с упражнениями для демонстрации подгрузки файлов с сервера.
 
 ## About Blockly
 
