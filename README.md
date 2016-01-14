@@ -9,6 +9,7 @@ Open in browser code_editor.html
 ## Language support
 Default support is English and Russion, but you can turn on other languages in Code.js file.
 
+
  ## О Проекте
 Редактор поддерживает Русский язык и несколько файлов с упражнениями для демонстрации подгрузки файлов с сервера.
 
