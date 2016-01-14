@@ -10,7 +10,7 @@ Open in browser code_editor.html
 Default support is English and Russion, but you can turn on other languages in Code.js file.
 
 
- ## О Проекте
+## О Проекте
 Редактор поддерживает Русский язык и несколько файлов с упражнениями для демонстрации подгрузки файлов с сервера.
 
 ## About Blockly
