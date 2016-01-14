@@ -9,6 +9,8 @@
 Modified version of Blockly editor with file load\save feature and C# code generation.
 For file load from server you can share Blockly on Web Server.
 
+## See editor
+http://ranux.github.io/blockly-editor/
 
 ## Run
 Open in browser code_editor.html
