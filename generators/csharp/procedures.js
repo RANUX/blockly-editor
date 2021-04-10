@@ -40,7 +40,7 @@ Blockly.CSharp.procedures_defreturn = function() {
       append_to_list(argTypes, 'dynamic');
   }
 
-  var delegateType = (returnValue.length == 0) ? 'Action' : ('Func<' + argTypes + '>');
+  var delegateType = (returnValue.length == 0) ? (args.length == 0 ? 'Action' : ('Action<' + argTypes + '>')) : ('Func<' + argTypes + '>');
 
   var code = 'var ' + funcName + ' = new ' + delegateType + '((' + args.join(', ') + ') => {\n' + branch + returnValue + '});';
   code = Blockly.CSharp.scrub_(this, code);
