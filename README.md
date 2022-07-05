@@ -8,8 +8,8 @@ Modified version of Blockly editor with file load\save feature and C# code gener
 For file load from server you can share Blockly on Web Server.
 
 ## See editor
-http://joshpinto6.github.io/blockly-editor/
-
+[http://joshpinto6.github.io/blockly-editor/
+](https://joshpinto6.github.io/blockly-editor/code_editor.html)
 ## Run
 Open in browser code_editor.html
 
