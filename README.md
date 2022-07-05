@@ -1,4 +1,4 @@
-## joshpinto6 Blockly Editor
+## @Joshpinto6 Blockly Editor
 A Blockly Editor based on [RANUX](github.com/ranux)'s Blockly Editor with C#. 
 
 This is an example of a block-based code editor that supports compiling to JS, Python, Dart, and C#. Block-based programming has become increasingly popular following the rise of Scratch, MIT App Inventor (and clones), Thunkable, and other editors.
