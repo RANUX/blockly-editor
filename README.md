@@ -1,29 +1,21 @@
+## joshpinto6 Blockly Editor
+A Blockly Editor based on [RANUX](github.com/ranux)'s Blockly Editor with C#. 
 
-## О Проекте
-Редактор поддерживает Русский язык и несколько файлов с упражнениями для демонстрации подгрузки файлов с сервера.
-Для подгрузки файлов с упражнениями разместите папку с проектом в открытой папке веб сервера.
-Упражнения распологаются в папке puzzles. 
-Если вы придумаете новые упражнения, то буду рад их добавить к себе в репозиторий.
+This is an example of a block-based code editor that supports compiling to JS, Python, Dart, and C#. Block-based programming has become increasingly popular following the rise of Scratch, MIT App Inventor (and clones), Thunkable, and other editors.
 
-## About this Project
+## @RANUX Version (Original)
 Modified version of Blockly editor with file load\save feature and C# code generation.
 For file load from server you can share Blockly on Web Server.
 
 ## See editor
-http://ranux.github.io/blockly-editor/
+http://joshpinto6.github.io/blockly-editor/
 
 ## Run
 Open in browser code_editor.html
 
-## Language support
-Default support is English and Russion, but you can turn on other languages in Code.js file.
-
-
-
 ## About Blockly
-
 Google's Blockly is a web-based, visual programming editor.  Users can drag
-blocks together to build programs.  All code is free and open source.
+blocks together to build programs. All code is free and open source.
 
 **The project page is https://developers.google.com/blockly/**
 
