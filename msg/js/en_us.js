@@ -456,14 +456,14 @@ Blockly.Msg.LISTS_GET_SUBLIST_TOOLTIP = 'Creates a copy of the specified portion
 // Variables Blocks.
 Blockly.Msg.VARIABLES_GET_HELPURL = 'http://en.wikipedia.org/wiki/Variable_(computer_science)';
 Blockly.Msg.VARIABLES_GET_TITLE = '';
-Blockly.Msg.VARIABLES_GET_ITEM = 'item';
+Blockly.Msg.VARIABLES_GET_ITEM = 'variable';
 Blockly.Msg.VARIABLES_GET_TAIL = '';
 Blockly.Msg.VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
 Blockly.Msg.VARIABLES_GET_CREATE_SET = 'Create "set %1"';
 
 Blockly.Msg.VARIABLES_SET_HELPURL = 'http://en.wikipedia.org/wiki/Variable_(computer_science)';
 Blockly.Msg.VARIABLES_SET_TITLE = 'set';
-Blockly.Msg.VARIABLES_SET_ITEM = 'item';
+Blockly.Msg.VARIABLES_SET_ITEM = 'variable';
 Blockly.Msg.VARIABLES_SET_TAIL = 'to';
 Blockly.Msg.VARIABLES_SET_TOOLTIP = 'Sets this variable to be equal to the input.';
 Blockly.Msg.VARIABLES_SET_CREATE_GET = 'Create "get %1"';
