@@ -1,4 +1,4 @@
-## Godot Blockly Editor (Fork)
+## Blockly Editor
 This is an example of a block-based code editor that supports compiling to JS, Python, Dart, and C#. Block-based programming has become increasingly popular following the rise of Scratch, MIT App Inventor (and clones), Thunkable, and other editors.
 
 This project is `in development`, and lacking MOST core features. The end project aims to:
@@ -10,13 +10,13 @@ This project is `in development`, and lacking MOST core features. The end projec
 Modified version of Blockly editor with file load\save feature and C# code generation.
 For file load from server you can share Blockly on Web Server.
 
-## Features:
-Implemented features
+## 🏗 Progress:
+What is implemented
 - Building, Saving, and Loading Blockly Files
 - Multi-language support
 - Exporting projects to C#
 
-## 🏗 Progress
+## 🗺️ Roadmap
 Many features are yet-to-be developed for the expected roadmap of the project. These <u>Planned Features</u> include:
 - Backpackable Scripts
 - Godot Project Exporter
@@ -25,16 +25,6 @@ Many features are yet-to-be developed for the expected roadmap of the project. T
 - Advanced Blocks
 
 
-## See editor
+## Run in web
 [http://joshpinto6.github.io/blockly-editor/
 ](https://joshpinto6.github.io/blockly-editor/code_editor.html)
-## Run
-Open in browser code_editor.html
-
-## About Blockly
-Google's Blockly is a web-based, visual programming editor.  Users can drag
-blocks together to build programs. All code is free and open source.
-
-**The project page is https://developers.google.com/blockly/**
-
-![](https://developers.google.com/blockly/sample.png)
